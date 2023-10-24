@@ -42,11 +42,6 @@ class AlecadTutoPlugin
         echo 'Plugin deactivated';
     }
 
-    public function uninstall()
-    {
-        //something
-    }
-
     public function alcd_plgn_custom_post_type()
     {
         register_post_type('books',
